@@ -5,7 +5,7 @@ var url = 'https://api.funtranslations.com/translate/minion.json';
 
 function urlProcessor() {
   var inputText = inputSelector.value;
-  return (inputString = url + '?' + 'text=' + inputText);
+  return url + '?' + 'text=' + inputText;
 }
 function inputHandler() {
   var url = urlProcessor();
