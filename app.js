@@ -1,6 +1,4 @@
-var url =
-  'https://lessonfourapi.tanaypratap.repl.co/translate/yoda.json?text=rravi';
-
-fetch(url)
-  .then((res) => res.json())
-  .then((data) => console.log(data));
+var buttonSelector = document.querySelector('#btn-translate');
+buttonSelector.addEventListener('click', function inputHandler() {
+  console.log('hello');
+});
