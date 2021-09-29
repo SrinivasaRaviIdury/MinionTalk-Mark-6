@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
 :root {
   --yellow: #f3db42;
   --blue: #0a71b6;
@@ -13,6 +14,9 @@ header {
   background-color: var(--yellow);
   color: var(--blue);
   text-align: center;
+}
+body {
+  font-family: 'Abel', sans-serif;
 }
 header h1 {
   padding: 5px;
@@ -60,4 +64,8 @@ footer h3 {
 footer p {
   color: rgb(241, 241, 241);
   line-height: 1.2;
+}
+footer span {
+  color: var(--yellow);
+  font-weight: 600;
 }
